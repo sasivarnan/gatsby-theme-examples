@@ -44,5 +44,6 @@ module.exports = ({ root }) => ({
         path: require.resolve(`./src/pages`),
       },
     },
+    `gatsby-plugin-postcss`,
   ],
 })
